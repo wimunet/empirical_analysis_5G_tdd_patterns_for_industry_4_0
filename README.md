@@ -8,3 +8,4 @@ __If you use code from these repositories, please cite our paper. Thanks!__
 ## Setup
 The setup comprises seven devices. __5G Amarisoft__ is a general-purpose computer equipped with a PCIe SDR50 card and runs the Amarisoft software to provide a standalone 5G network. The setup also includes two UEs, each consisting of an __Intel NUC BXNUC10I7FNH2__ with a __Quectel RM500Q-GL__ card. Since the 5G system works in licensed bands, it is enclosed in an RF Shielded Test Enclosure, specifically the __Labifix LBX500__ model. And, __SecureSync 2400__ time synchronization server distributes time using the Network Time Protocol (NTP) to ensure time synchronization across devices. 
 
+[Testbed.pdf](https://github.com/user-attachments/files/19553061/Testbed.pdf)
