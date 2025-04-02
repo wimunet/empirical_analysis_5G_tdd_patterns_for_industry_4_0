@@ -30,3 +30,17 @@ The following figures show: (a)  the CDF of packet transmission delay for 100-by
 - Traces captured with tcpdump in .csv files are saved on ```Traces``` folder
 - Measured packet transmission delay from these traces are saved on ```Delays``` folder
 - CDFs from these packet transmission delays are saved on ```CDFs``` folder
+
+Both the individual delays of each transmitted packet and the CDFs have been saved in NumPy format. The CDFs for both the uplink and downlink are extracted for a specific scenario, which is stored in file.npz. To read them with Python, use the following code:
+
+data = np.load(file.npz, allow_pickle=True)
+ecdf_dl_x, ecdf_dl_y = data['ecdf_dl_x'], data['ecdf_dl_y']
+ecdf_ul_x, ecdf_ul_y = data['ecdf_ul_x'], data['ecdf_ul_y']
+
+For the individual delays of each packet, the following code should be used:
+
+data = np.load(file.npz, allow_pickle=True)
+timestamps_bs_dl, timestamps_bs_ul = data['timestamps_downlink_bs'], data['timestamps_uplink_bs']
+sequences_bs_dl, sequences_bs_ul = data['sequences_downlink_bs'], data['sequences_uplink_bs']
+timestamps_ue_dl, timestamps_ue_ul = data['timestamps_downlink_ue'], data['timestamps_uplink_ue']
+sequences_ue_dl, sequences_ue_ul = data['sequences_downlink_ue'], data['sequences_uplink_ue']
