@@ -31,13 +31,17 @@ The following figures show: (a)  the CDF of packet transmission delay for 100-by
 - Measured timestamps for each individual packet (at the base station, and the ue) are saved on ```Delays``` folder
 - CDFs from these packet transmission delays are saved on ```CDFs``` folder
 
-Both the individual delays of each transmitted packet and the CDFs have been saved in NumPy format. The CDFs for both the uplink and downlink are extracted for a specific scenario, which is stored in file.npz. To read them with Python, use the following code:
+Both the individual delays of each transmitted packet and the CDFs have been saved in NumPy format. The CDFs for both the uplink and downlink are extracted for a specific scenario, which is stored in file.npz. Additionally, you can also obtain the raw delays. To read them with Python, you can use the following code:
 
 data = np.load(file.npz, allow_pickle=True)
 
-ecdf_dl_x, ecdf_dl_y = data['ecdf_dl_x'], data['ecdf_dl_y']
+ecdf_dl_x, ecdf_dl_y = data['ecdf_dl_x'], data['ecdf_dl_y'] 
 
-ecdf_ul_x, ecdf_ul_y = data['ecdf_ul_x'], data['ecdf_ul_y']
+ecdf_ul_x, ecdf_ul_y = data['ecdf_ul_x'], data['ecdf_ul_y']  
+
+time_downlink = data['tiempos_downlink'] 
+
+time_uplink = data['tiempos_uplink']
 
 For the individual delays of each packet, the following code should be used:
 
