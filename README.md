@@ -1,7 +1,11 @@
 # Empirical Analysis of 5G TDD Patterns Configurations for Industrial Automation Traffic
 We investigate the potential of configuring the 5G time division duplex pattern to minimize packet transmission delay in industrial environments. Through empirical measurements using a commercial 5G system, we evaluate different TDD configurations under varying traffic loads, packet sizes and full buffer status report activation.
 
-This repository provides a detailed description of the network configuration used in the experiments, along with the Wireshark traces collected and the delays measured for each packet, considering the different TDD patterns configured and evaluated. These data were used in the paper: [1] O. Adamuz-Hinojosa, F. Delgado-Ferro, N. Domènech, J. Navarro-Ortiz, P. Muñoz, S. Mahdi Darroudi, P. Ameigeiras, J. M. Lopez-Soler, 'Empirical Analysis of 5G TDD Patterns Configurations for Industrial Automation Traffic,' in Joint European Conference on Networks and Communications & 6G Summit (EuCNC/6G Summit), pp. 1-6, 2025.
+This repository provides a detailed description of the network configuration used in the experiments, along with the Wireshark traces collected and the delays measured for each packet, considering the different TDD patterns configured and evaluated. These data were used in the paper: 
+
+[1] O. Adamuz-Hinojosa, F. Delgado-Ferro, N. Domènech, J. Navarro-Ortiz, P. Muñoz, S. Mahdi Darroudi, P. Ameigeiras, J. M. Lopez-Soler, 'Empirical Analysis of 5G TDD Patterns Configurations for Industrial Automation Traffic,' in Joint European Conference on Networks and Communications & 6G Summit (EuCNC/6G Summit), pp. 1-6, 2025.
+
+Post-print Available: https://arxiv.org/abs/2504.00912
 
 __If you use data/code from this repository, please cite our paper. Thanks!__
 
