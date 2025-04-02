@@ -27,6 +27,6 @@ The following figures show: (a)  the CDF of packet transmission delay for 100-by
 ![Image](https://github.com/user-attachments/assets/967ecb96-3d81-47f0-bd0c-df3b3ff24109)
 
 ## Measured Data
-- Captured Wireshark traces are saved on ```Traces``` folder
+- Traces captured with tcpdump in .csv files are saved on ```Traces``` folder
 - Measured packet transmission delay from these traces are saved on ```Delays``` folder
 - CDFs from these packet transmission delays are saved on ```CDFs``` folder
