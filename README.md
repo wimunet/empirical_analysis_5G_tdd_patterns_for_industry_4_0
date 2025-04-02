@@ -54,3 +54,8 @@ sequences_bs_dl, sequences_bs_ul = data['sequences_downlink_bs'], data['sequence
 timestamps_ue_dl, timestamps_ue_ul = data['timestamps_downlink_ue'], data['timestamps_uplink_ue']
 
 sequences_ue_dl, sequences_ue_ul = data['sequences_downlink_ue'], data['sequences_uplink_ue']
+
+
+## Acknowledgment
+This work has been financially supported by the Ministry for Digital Transformation and of Civil Service of the Spanish Government through TSI-063000-2021-28 (6G-CHRONOS) project, and by the European Union through the Recovery, Transformation and Resilience Plan
+- NextGenerationEU. Additionally, this publication is part of grant PID2022-137329OB-C43 funded by MICIU/AEI/10.13039/501100011033 and part of grant FPU20/02621 funded by the Spanish Ministry of Universities.
