@@ -6,6 +6,7 @@ This repository provides a detailed description of the network configuration use
 [1] O. Adamuz-Hinojosa, F. Delgado-Ferro, N. Domènech, J. Navarro-Ortiz, P. Muñoz, S. Mahdi Darroudi, P. Ameigeiras, J. M. Lopez-Soler, 'Empirical Analysis of 5G TDD Patterns Configurations for Industrial Automation Traffic,' in Joint European Conference on Networks and Communications & 6G Summit (EuCNC/6G Summit), pp. 1-6, 2025.
 
 Post-print Available: https://arxiv.org/abs/2504.00912
+IEEE Xplore: https://ieeexplore.ieee.org/document/11037107
 
 __If you use data/code from this repository, please cite our paper. Thanks!__
 
